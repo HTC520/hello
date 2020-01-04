@@ -46,5 +46,5 @@ a:hover{color:#F60;text-decoration:underline;}
 .content .wrapper:first-child .main .year.close h2 i{transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg)}
 .content .wrapper:first-child .main .year.close .list{opacity:0;height:0!important;}
 .storyend {background-color: #3B3E49;}
-.button {font-family: 楷体;font-size:130%;display: block;height:40px; width:290px;-webkit-transition-duration: 0.4s;transition-duration: 0.4s;padding: 7px 18px;text-align: center;background-color: #bdf3d4;color: black;border: 2px solid #E9573F;border-radius:30px;margin: 0 auto;}
+.button {font-family: 楷体;font-size:130%;display: block;height:40px; width:290px;-webkit-transition-duration: 0.4s;transition-duration: 0.4s;padding: 7px 18px;text-align: center;background-color: #F5F7FA;color: black;border: 2px solid #E9573F;border-radius:30px;margin: 0 auto;}
 .button:hover {background-color: #DA4453;color: white;}
