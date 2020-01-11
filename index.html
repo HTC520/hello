@@ -23,7 +23,7 @@
 <div class="main">
 <h1 class="title">&nbsp;</h1>
     <!--2019开始-->
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2019年12月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -113,7 +113,7 @@
     </div>
     <!--2019end-->
     <!--2020年begin-->
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年1月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -421,7 +421,7 @@
             </ul>
         </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年2月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -661,7 +661,7 @@
             </ul>
         </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年3月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -917,7 +917,7 @@
             </ul>
     </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年4月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -1165,7 +1165,7 @@
             </ul>
         </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年5月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -1421,7 +1421,7 @@
             </ul>
         </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年6月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -1669,7 +1669,7 @@
             </ul>
         </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年7月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -1925,7 +1925,7 @@
             </ul>
         </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年8月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -2181,7 +2181,7 @@
             </ul>
         </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年9月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -2429,7 +2429,7 @@
             </ul>
         </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年10月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -2685,7 +2685,7 @@
             </ul>
         </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年11月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -2933,7 +2933,7 @@
             </ul>
         </div>
     </div>
-    <div class="month">
+    <div class="year">
         <h2><a href="#">2020年12月<i></i></a></h2>
         <div class="list">
             <ul>
@@ -3130,14 +3130,14 @@
 <script type="text/javascript" src="js/mymouse.js" id="mymouse"></script>
 <script type="text/javascript" src="js/loveheart.js"></script>
 <script type="text/javascript">
-$(".main .month .list").each(function(e, target){
+$(".main .year .list").each(function(e, target){
 var $target=$(target),
 $ul = $target.find("ul");
 $target.height($ul.outerHeight()), $ul.css("position", "absolute");
 }); 
-$(".main .month>h2>a").click(function(e){
+$(".main .year>h2>a").click(function(e){
 e.preventDefault();
-$(this).parents(".month").toggleClass("close");
+$(this).parents(".year").toggleClass("close");
 });
 </script>
 </body>
